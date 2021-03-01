@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Country code for Google Cal:&#13;
+UK: en.uk&#13;
+USA: en.usa&#13;
+Germany: en.german&#13;
+Australia: en.australian</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_clost_google_cal.cal_country_code</name>
+        <read_roles/>
+        <suffix>cal_country_code</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-08 10:23:56</sys_created_on>
+        <sys_id>4f4bdee5db0c18d002ccce1c299619e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_clost_google_cal.cal_country_code</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sys_properties_4f4bdee5db0c18d002ccce1c299619e2</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 10:25:05</sys_updated_on>
+        <type>string</type>
+        <value>en.uk</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=4f4bdee5db0c18d002ccce1c299619e2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</application>
+        <file_path/>
+        <instance_id>33b38ed2dbcd08d02f68c59705961929</instance_id>
+        <instance_name>cloudstratexltddemo1</instance_name>
+        <name>sys_properties_4f4bdee5db0c18d002ccce1c299619e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Country code for Google Cal:&#13;
+UK: en.uk&#13;
+USA: en.usa&#13;
+Germany: en.german&#13;
+Australia: en.australian</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_clost_google_cal.cal_country_code</name><read_roles/><suffix>cal_country_code</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2020-04-08 10:23:56</sys_created_on><sys_id>4f4bdee5db0c18d002ccce1c299619e2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_clost_google_cal.cal_country_code</sys_name><sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package><sys_policy/><sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope><sys_update_name>sys_properties_4f4bdee5db0c18d002ccce1c299619e2</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2020-04-08 10:25:05</sys_updated_on><type>string</type><value>en.uk</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=4f4bdee5db0c18d002ccce1c299619e2"/></record_update>]]></payload>
+        <payload_hash>-1173770211</payload_hash>
+        <record_name>x_clost_google_cal.cal_country_code</record_name>
+        <reverted_from/>
+        <source>a7d412a5dbc818d002ccce1c299619a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-08 10:25:08</sys_created_on>
+        <sys_id>7cbc12e9db0c18d002ccce1c299619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171595274ea0000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 10:25:08</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>30bc12e9560c18d00aa7fba8c124b5e7</update_guid>
+        <update_guid_history>30bc12e9560c18d00aa7fba8c124b5e7:-1173770211,807c16a97b0c18d04e110076b8cc5d8f:1749205561</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-14 08:16:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>00256aec527d4fe88360865a353d29e4</sys_id>
+        <sys_metadata>4f4bdee5db0c18d002ccce1c299619e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_clost_google_cal.cal_country_code</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_scope_delete display_value="">7bf9f9bc28e246f18d8faaf6848c1729</sys_scope_delete>
+        <sys_update_name>sys_properties_4f4bdee5db0c18d002ccce1c299619e2</sys_update_name>
+        <sys_update_version display_value="sys_properties_4f4bdee5db0c18d002ccce1c299619e2">7cbc12e9db0c18d002ccce1c299619e7</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-14 08:16:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

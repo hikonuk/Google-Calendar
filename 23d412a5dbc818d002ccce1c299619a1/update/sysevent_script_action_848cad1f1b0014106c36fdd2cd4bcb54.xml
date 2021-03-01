@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_clost_google_cal.add_cal</event_name>
+        <name>Create Calendar Records</name>
+        <order>100</order>
+        <script><![CDATA[var api = gs.getProperty('x_clost_google_cal.api_key');
+var getCountries = new GlideRecord('x_clost_google_cal_holiday_request');
+getCountries.get(event.parm1);
+getCountries.status = 'Started';
+getCountries.update();
+
+var countriesList = getCountries.countries.split(',');
+
+for (a = 0; a < countriesList.length; a++) {
+
+    var getCountryCode = new GlideRecord('x_clost_google_cal_available_calendar');
+    getCountryCode.get(countriesList[a]);
+
+    var r = new sn_ws.RESTMessageV2('x_clost_google_cal.Calendar records', 'Default GET');
+    r.setStringParameterNoEscape('yourAPIKey', api);
+    r.setStringParameterNoEscape('holiday_cal', getCountryCode.value);
+
+    var response = r.execute();
+    var responseBody = response.getBody();
+    var httpStatus = response.getStatusCode();
+
+    var parser = new global.JSON();
+    var parsed = parser.decode(responseBody);
+
+    createCal(parsed.items, parsed.summary);
+}
+
+function createCal(items, summary) {
+
+    var createCalName = new GlideRecord('cmn_schedule');
+    createCalName.addQuery('name', summary);
+    createCalName.query();
+
+    if (createCalName.next()) {
+        updateCalEntry(items, createCalName.sys_id);
+    } else if (!createCalName.next()) {
+        createCalName.initialize();
+        createCalName.name = parsed.summary;
+        createCalName.is_legacy_schedule = true;
+        var calSys = createCalName.insert();
+        updateCalEntry(items, calSys);
+    }
+}
+
+function updateCalEntry(calEntrys, calSys) {
+
+    for (i = 0; i < calEntrys.length; i++) {
+				
+		var year = calEntrys[i].start.date.slice(0,4);
+		var month = calEntrys[i].start.date.slice(5,7);
+		var day = calEntrys[i].start.date.slice(8,10);		
+		
+		var newStartDate = year+'-'+month+'-'+day+' 00:00:00';
+		var newEndDate = year+'-'+month+'-'+day+' 23:59:59';
+		
+		var startDateToGlide = year+month+day+'T000000';
+		
+		var createCalEntry = new GlideRecord('cmn_schedule_span');
+        createCalEntry.addQuery('schedule', calSys);
+        createCalEntry.addQuery('name', calEntrys[i].summary);
+        createCalEntry.addQuery('start_date_time', startDateToGlide);
+        createCalEntry.query();
+
+        if (createCalEntry.next()) {
+			//gs.info('CALStart: '+createCalEntry.start_date_time);
+            //Do Nothing
+        } else if (!createCalEntry.next()) {
+            createCalEntry.initialize();
+            createCalEntry.all_day = 'true';
+            createCalEntry.end_date_time = newEndDate;
+           // createCalEntry.float_day = day;
+           // createCalEntry.month = month;
+          //  createCalEntry.monthly_type = 'dom';
+            createCalEntry.name = calEntrys[i].summary;
+            createCalEntry.override_start_date = '00000000';
+            createCalEntry.repeat_count = '1';
+            createCalEntry.repeat_until = '00000000';
+            createCalEntry.schedule = calSys;
+            createCalEntry.show_as = 'busy';
+            createCalEntry.start_date_time = newStartDate;
+            createCalEntry.type = 'Holiday';
+          //  createCalEntry.yearly_type = 'doy';
+            createCalEntry.insert();
+        }
+    }
+}
+
+getCountries.status = 'Completed';
+getCountries.update();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 17:37:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>848cad1f1b0014106c36fdd2cd4bcb54</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Create Calendar Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sysevent_script_action_848cad1f1b0014106c36fdd2cd4bcb54</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-14 09:42:56</sys_updated_on>
+    </sysevent_script_action>
+</record_update>

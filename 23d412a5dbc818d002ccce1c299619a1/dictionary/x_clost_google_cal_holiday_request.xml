@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Holiday Request" max_length="40" name="x_clost_google_cal_holiday_request" sizeclass="3" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Countries" max_length="4000" name="countries" reference="x_clost_google_cal_available_calendar" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+    </element>
+</database>

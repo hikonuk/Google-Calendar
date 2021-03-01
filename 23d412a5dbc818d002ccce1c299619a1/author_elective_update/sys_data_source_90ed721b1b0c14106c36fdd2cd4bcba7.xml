@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>attachment://sys_data_source:90ed721b1b0c14106c36fdd2cd4bcba7/x_clost_google_cal_available_calendar.xlsx</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path>x_clost_google_cal_available_calendar.xlsx</file_path>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>Excel</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label/>
+        <import_set_table_name>u_imp_tmpl_x_clost_google_cal_available_calendar</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows>10000</maximum_rows>
+        <mid_server/>
+        <name>x_clost_google_cal_available_calendar.xl</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>0</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:19:27</sys_created_on>
+        <sys_id>90ed721b1b0c14106c36fdd2cd4bcba7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_clost_google_cal_available_calendar.xl</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sys_data_source_90ed721b1b0c14106c36fdd2cd4bcba7</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:19:31</sys_updated_on>
+        <table_name/>
+        <type>File</type>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</application>
+        <file_path/>
+        <instance_id>33b38ed2dbcd08d02f68c59705961929</instance_id>
+        <instance_name>cloudstratexltddemo1</instance_name>
+        <name>sys_data_source_90ed721b1b0c14106c36fdd2cd4bcba7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source"><sys_data_source action="INSERT_OR_UPDATE"><category/><connection_timeout>0</connection_timeout><connection_url>attachment://sys_data_source:90ed721b1b0c14106c36fdd2cd4bcba7/x_clost_google_cal_available_calendar.xlsx</connection_url><connection_url_parameters/><csv_delimiter/><database_name/><database_port/><discard_arrays>true</discard_arrays><expand_node_children>false</expand_node_children><file_path>x_clost_google_cal_available_calendar.xlsx</file_path><file_retrieval_method>Attachment</file_retrieval_method><format>Excel</format><glide_keystore>false</glide_keystore><header_row>0</header_row><import_set_table_label/><import_set_table_name>u_imp_tmpl_x_clost_google_cal_available_calendar</import_set_table_name><instance_name/><jdbc_password/><jdbc_server/><jdbc_user_name/><jpath_root_node/><last_run_database_field/><last_run_datetime/><ldap_target/><maximum_rows>10000</maximum_rows><mid_server/><name>x_clost_google_cal_available_calendar.xl</name><oracle_port>1521</oracle_port><oracle_sid>orcl</oracle_sid><properties/><query>All Rows from Table</query><query_timeout>0</query_timeout><scp_authentication>Username and Password</scp_authentication><scp_password/><scp_port/><scp_server/><scp_user_name/><sheet_number>0</sheet_number><sql_statement/><ssh_keyfile_path/><sys_class_name>sys_data_source</sys_class_name><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2020-04-13 23:19:27</sys_created_on><sys_id>90ed721b1b0c14106c36fdd2cd4bcba7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_clost_google_cal_available_calendar.xl</sys_name><sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package><sys_policy/><sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope><sys_update_name>sys_data_source_90ed721b1b0c14106c36fdd2cd4bcba7</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2020-04-13 23:19:31</sys_updated_on><table_name/><type>File</type><use_integrated_authentication>false</use_integrated_authentication><use_last_run_datetime>false</use_last_run_datetime><xpath_root_node/><zipped>false</zipped></sys_data_source></record_update>]]></payload>
+        <payload_hash>429286387</payload_hash>
+        <record_name>x_clost_google_cal_available_calendar.xl</record_name>
+        <reverted_from/>
+        <source>a7d412a5dbc818d002ccce1c299619a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:19:31</sys_created_on>
+        <sys_id>4dedb21b1b0c14106c36fdd2cd4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17175d7397a0000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:19:31</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>85edb21b8c0c14101fd475cd9016b774</update_guid>
+        <update_guid_history>85edb21b8c0c14101fd475cd9016b774:429286387,c1edb21b9f0c141002d8e4d371432c73:172176396</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:24:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>829ed762a2db41848666f824ae856281</sys_id>
+        <sys_metadata>90ed721b1b0c14106c36fdd2cd4bcba7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_clost_google_cal_available_calendar.xl</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_scope_delete display_value="">7bf9f9bc28e246f18d8faaf6848c1729</sys_scope_delete>
+        <sys_update_name>sys_data_source_90ed721b1b0c14106c36fdd2cd4bcba7</sys_update_name>
+        <sys_update_version display_value="sys_data_source_90ed721b1b0c14106c36fdd2cd4bcba7">4dedb21b1b0c14106c36fdd2cd4bcb74</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:24:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

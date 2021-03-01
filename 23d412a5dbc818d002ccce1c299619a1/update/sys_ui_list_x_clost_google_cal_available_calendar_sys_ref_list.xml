@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_clost_google_cal_available_calendar" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>label</element>
+            <list_id display_value="x_clost_google_cal_available_calendar" element="NULL" name="x_clost_google_cal_available_calendar" parent="NULL" relationship="NULL" sys_domain="global" view="994602521b01001065e611fc2d4bcbc6">03633d9b1b4014106c36fdd2cd4bcbbf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2020-04-13 17:54:09</sys_created_on>
+            <sys_id>8f633d9b1b4014106c36fdd2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2020-04-13 17:54:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_clost_google_cal_available_calendar</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2020-04-13 17:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03633d9b1b4014106c36fdd2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_clost_google_cal_available_calendar</sys_name>
+            <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+            <sys_update_name>sys_ui_list_x_clost_google_cal_available_calendar_sys_ref_list</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2020-04-13 17:54:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">994602521b01001065e611fc2d4bcbc6</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

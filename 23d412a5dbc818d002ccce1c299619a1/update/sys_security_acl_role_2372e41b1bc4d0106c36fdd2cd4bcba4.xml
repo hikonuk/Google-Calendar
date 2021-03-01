@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 12:00:34</sys_created_on>
+        <sys_id>2372e41b1bc4d0106c36fdd2cd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_clost_google_cal_holiday_request.x_clost_google_cal.holiday_request_user</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_security_acl display_value="x_clost_google_cal_holiday_request">e372e41b1bc4d0106c36fdd2cd4bcb23</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2372e41b1bc4d0106c36fdd2cd4bcba4</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 12:00:34</sys_updated_on>
+        <sys_user_role display_value="x_clost_google_cal.holiday_request_user" name="x_clost_google_cal.holiday_request_user">0a72a41b1bc4d0106c36fdd2cd4bcb2b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

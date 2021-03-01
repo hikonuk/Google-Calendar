@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Imp Tmpl X Clost Google Cal Available Calendar</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_imp_tmpl_x_clost_google_cal_available_calendar</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:19:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>46edf21b1b0c14106c36fdd2cd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Clost Google Cal Available Calendar</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sys_app_module_46edf21b1b0c14106c36fdd2cd4bcb9b</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:19:35</sys_updated_on>
+        <timeline_page/>
+        <title>Imp Tmpl X Clost Google Cal Available Calendar</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</application>
+        <file_path/>
+        <instance_id>33b38ed2dbcd08d02f68c59705961929</instance_id>
+        <instance_name>cloudstratexltddemo1</instance_name>
+        <name>sys_app_module_46edf21b1b0c14106c36fdd2cd4bcb9b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Imp Tmpl X Clost Google Cal Available Calendar</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_imp_tmpl_x_clost_google_cal_available_calendar</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2020-04-13 23:19:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>46edf21b1b0c14106c36fdd2cd4bcb9b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Imp Tmpl X Clost Google Cal Available Calendar</sys_name><sys_overrides/><sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package><sys_policy/><sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope><sys_update_name>sys_app_module_46edf21b1b0c14106c36fdd2cd4bcb9b</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2020-04-13 23:19:35</sys_updated_on><timeline_page/><title>Imp Tmpl X Clost Google Cal Available Calendar</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2053755502</payload_hash>
+        <record_name>Imp Tmpl X Clost Google Cal Available Calendar</record_name>
+        <reverted_from/>
+        <source>a7d412a5dbc818d002ccce1c299619a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:19:35</sys_created_on>
+        <sys_id>c2edf21b1b0c14106c36fdd2cd4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17175d749020000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:19:35</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0eedf21bf70c1410ca8daf0b0302dd9d</update_guid>
+        <update_guid_history>0eedf21bf70c1410ca8daf0b0302dd9d:-2053755502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Imp Tmpl X Clost Google Cal Available Calendar">76ceba9b1b0c14106c36fdd2cd4bcb23</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:23:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>8871497853b74a0ca376063045185c59</sys_id>
+        <sys_metadata>46edf21b1b0c14106c36fdd2cd4bcb9b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Clost Google Cal Available Calendar</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_scope_delete display_value="">7bf9f9bc28e246f18d8faaf6848c1729</sys_scope_delete>
+        <sys_update_name>sys_app_module_46edf21b1b0c14106c36fdd2cd4bcb9b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_46edf21b1b0c14106c36fdd2cd4bcb9b">c2edf21b1b0c14106c36fdd2cd4bcb9e</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:23:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

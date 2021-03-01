@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e6fdb61b1b0c14106c36fdd2cd4bcb26</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_clost_google_cal_available_calendar">
+    <x_clost_google_cal_available_calendar action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <label>Holidays in Jordan</label>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:19:53</sys_created_on>
+        <sys_id>e6fdb61b1b0c14106c36fdd2cd4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:19:53</sys_updated_on>
+        <value>en.jo</value>
+    </x_clost_google_cal_available_calendar>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 23:20:44</sys_created_on>
+        <sys_id>b22e7e1b1b0c14106c36fdd2cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Holidays in Jordan</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sys_metadata_link_b22e7e1b1b0c14106c36fdd2cd4bcb51</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 23:20:44</sys_updated_on>
+        <tablename>x_clost_google_cal_available_calendar</tablename>
+    </sys_metadata_link>
+</record_update>

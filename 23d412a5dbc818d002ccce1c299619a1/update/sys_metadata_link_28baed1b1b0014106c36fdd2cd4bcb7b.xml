@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5ca9ed171b0014106c36fdd2cd4bcb37</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_clost_google_cal_available_calendar">
+    <x_clost_google_cal_available_calendar action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <label>Holidays in Isle of Man</label>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 17:11:21</sys_created_on>
+        <sys_id>5ca9ed171b0014106c36fdd2cd4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 17:11:21</sys_updated_on>
+        <value>en.im</value>
+    </x_clost_google_cal_available_calendar>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 17:16:01</sys_created_on>
+        <sys_id>28baed1b1b0014106c36fdd2cd4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2020-04-13 18:11:21</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sys_metadata_link_28baed1b1b0014106c36fdd2cd4bcb7b</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 17:16:01</sys_updated_on>
+        <tablename>x_clost_google_cal_available_calendar</tablename>
+    </sys_metadata_link>
+</record_update>

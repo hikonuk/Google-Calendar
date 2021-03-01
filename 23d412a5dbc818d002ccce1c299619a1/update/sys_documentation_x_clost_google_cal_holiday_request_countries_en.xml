@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="countries" label="Countries" language="en" table="x_clost_google_cal_holiday_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>countries</element>
+            <help/>
+            <hint/>
+            <label>Countries</label>
+            <language>en</language>
+            <name>x_clost_google_cal_holiday_request</name>
+            <plural>Countries</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2020-04-13 12:00:35</sys_created_on>
+            <sys_id>ff72e41b1bc4d0106c36fdd2cd4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Countries</sys_name>
+            <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+            <sys_update_name>sys_documentation_x_clost_google_cal_holiday_request_countries_en</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2020-04-13 12:00:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

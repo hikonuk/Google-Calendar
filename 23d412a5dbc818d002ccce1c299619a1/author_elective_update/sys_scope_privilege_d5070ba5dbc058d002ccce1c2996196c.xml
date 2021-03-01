@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>create</operation>
+        <source_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>alicia.hassan@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-08 13:30:02</sys_created_on>
+        <sys_id>d5070ba5dbc058d002ccce1c2996196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmn_schedule</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sys_scope_privilege_d5070ba5dbc058d002ccce1c2996196c</sys_update_name>
+        <sys_updated_by>alicia.hassan@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 13:30:02</sys_updated_on>
+        <target_name>cmn_schedule</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</application>
+        <file_path/>
+        <instance_id>33b38ed2dbcd08d02f68c59705961929</instance_id>
+        <instance_name>cloudstratexltddemo1</instance_name>
+        <name>sys_scope_privilege_d5070ba5dbc058d002ccce1c2996196c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>create</operation><source_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>alicia.hassan@cloudstratex.com</sys_created_by><sys_created_on>2020-04-08 13:30:02</sys_created_on><sys_id>d5070ba5dbc058d002ccce1c2996196c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmn_schedule</sys_name><sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package><sys_policy/><sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope><sys_update_name>sys_scope_privilege_d5070ba5dbc058d002ccce1c2996196c</sys_update_name><sys_updated_by>alicia.hassan@cloudstratex.com</sys_updated_by><sys_updated_on>2020-04-08 13:30:02</sys_updated_on><target_name>cmn_schedule</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>281208139</payload_hash>
+        <record_name>cmn_schedule</record_name>
+        <reverted_from/>
+        <source>a7d412a5dbc818d002ccce1c299619a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alicia.hassan@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-08 13:30:02</sys_created_on>
+        <sys_id>95070ba5dbc058d002ccce1c2996196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17159fbbc610000001</sys_recorded_at>
+        <sys_updated_by>alicia.hassan@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 13:30:02</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>dd070ba5f2c058d01893f2c5beba6a6d</update_guid>
+        <update_guid_history>dd070ba5f2c058d01893f2c5beba6a6d:281208139</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alicia.hassan@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-08 13:31:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>6d0665ab5ca4461eb64f8124bf8dd084</sys_id>
+        <sys_metadata>d5070ba5dbc058d002ccce1c2996196c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmn_schedule</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_scope_delete display_value="">7bf9f9bc28e246f18d8faaf6848c1729</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_d5070ba5dbc058d002ccce1c2996196c</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_d5070ba5dbc058d002ccce1c2996196c">95070ba5dbc058d002ccce1c2996196e</sys_update_version>
+        <sys_updated_by>alicia.hassan@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-08 13:31:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

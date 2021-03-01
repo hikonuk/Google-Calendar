@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="countries" table="x_clost_google_cal_holiday_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>countries</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>United Kingdom</label>
+            <language>en</language>
+            <name>x_clost_google_cal_holiday_request</name>
+            <sequence>100</sequence>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2020-04-13 12:02:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70b2ac1b1bc4d0106c36fdd2cd4bcb6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2020-04-13 12:02:08</sys_updated_on>
+            <value>en.uk</value>
+        </sys_choice>
+        <sys_choice_set action="DELETE">
+            <element>countries</element>
+            <name>x_clost_google_cal_holiday_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2020-04-13 12:02:09</sys_created_on>
+            <sys_id>b2d2ec1b1bc4d0106c36fdd2cd4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>countries</sys_name>
+            <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+            <sys_update_name>sys_choice_x_clost_google_cal_holiday_request_countries</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2020-04-13 12:02:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</application>
+        <file_path/>
+        <instance_id>33b38ed2dbcd08d02f68c59705961929</instance_id>
+        <instance_name>cloudstratexltddemo1</instance_name>
+        <name>sys_choice_x_clost_google_cal_holiday_request_countries</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="countries" table="x_clost_google_cal_holiday_request" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>countries</element><hint/><inactive>false</inactive><label>United Kingdom</label><language>en</language><name>x_clost_google_cal_holiday_request</name><sequence>100</sequence><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2020-04-13 12:02:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>70b2ac1b1bc4d0106c36fdd2cd4bcb6e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2020-04-13 12:02:08</sys_updated_on><value>en.uk</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>countries</element><name>x_clost_google_cal_holiday_request</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2020-04-13 12:02:09</sys_created_on><sys_id>b2d2ec1b1bc4d0106c36fdd2cd4bcb7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>countries</sys_name><sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package><sys_policy/><sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope><sys_update_name>sys_choice_x_clost_google_cal_holiday_request_countries</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2020-04-13 12:02:09</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-877465127</payload_hash>
+        <record_name>Holiday Request.Countries</record_name>
+        <reverted_from/>
+        <source>a7d412a5dbc818d002ccce1c299619a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 16:46:32</sys_created_on>
+        <sys_id>ecf32d5b1bccd0106c36fdd2cd4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171746f714b0000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 16:46:32</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>e0f32d5bfbccd01075d4775c9a322530</update_guid>
+        <update_guid_history>e0f32d5bfbccd01075d4775c9a322530:-877465127,8ee2ac1b29c4d010b8715208e44aa48b:-2143867116,7ed2ec1b40c4d01003eecd2d979a737e:-877465127</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-13 16:46:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>b2d2ec1b1bc4d0106c36fdd2cd4bcb7d</sys_id>
+        <sys_metadata>b2d2ec1b1bc4d0106c36fdd2cd4bcb7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>countries</sys_name>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_scope_delete display_value="">7bf9f9bc28e246f18d8faaf6848c1729</sys_scope_delete>
+        <sys_update_name>sys_choice_x_clost_google_cal_holiday_request_countries</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_clost_google_cal_holiday_request_countries">ecf32d5b1bccd0106c36fdd2cd4bcb30</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-13 16:46:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

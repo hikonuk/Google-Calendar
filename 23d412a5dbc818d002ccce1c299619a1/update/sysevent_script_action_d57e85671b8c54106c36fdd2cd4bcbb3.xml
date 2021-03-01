@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_clost_google_cal.remove_cal</event_name>
+        <name>Remove Calendar Records</name>
+        <order>100</order>
+        <script><![CDATA[var api = gs.getProperty('x_clost_google_cal.api_key');
+var getCountries = new GlideRecord('x_clost_google_cal_holiday_request');
+getCountries.get(event.parm1);
+getCountries.status = 'Started';
+getCountries.update();
+
+var countriesList = getCountries.countries.split(',');
+
+for (a = 0; a < countriesList.length; a++) {
+
+    var getCountryCode = new GlideRecord('x_clost_google_cal_available_calendar');
+    getCountryCode.get(countriesList[a]);
+
+    var r = new sn_ws.RESTMessageV2('x_clost_google_cal.Calendar records', 'Default GET');
+    r.setStringParameterNoEscape('yourAPIKey', api);
+    r.setStringParameterNoEscape('holiday_cal', getCountryCode.value);
+
+    var response = r.execute();
+    var responseBody = response.getBody();
+    var httpStatus = response.getStatusCode();
+
+    var parser = new global.JSON();
+    var parsed = parser.decode(responseBody);
+
+    createCal(parsed.items, parsed.summary);
+}
+
+function createCal(items, summary) {
+
+    var createCalName = new GlideRecord('cmn_schedule');
+    createCalName.addQuery('name', summary);
+    createCalName.query();
+
+    if (createCalName.next()) {
+		createCalName.deleteRecord();
+    }
+    }
+
+getCountries.status = 'Completed';
+getCountries.update();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2020-04-14 09:51:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d57e85671b8c54106c36fdd2cd4bcbb3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Remove Calendar Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Calendar Sync" source="x_clost_google_cal">23d412a5dbc818d002ccce1c299619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Calendar Sync">23d412a5dbc818d002ccce1c299619a1</sys_scope>
+        <sys_update_name>sysevent_script_action_d57e85671b8c54106c36fdd2cd4bcbb3</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2020-04-14 17:18:00</sys_updated_on>
+    </sysevent_script_action>
+</record_update>
